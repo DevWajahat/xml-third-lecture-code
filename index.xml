@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE person [
+<!ELEMENT person (user+)>
+<!ELEMENT user (name,email,(number|contact))>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT number (#PCDATA)>
+<!ELEMENT contact (#PCDATA)>
+<!-- <!ATTLIST user id CDATA "1"> -->
+<!-- <!ATTLIST user id CDATA "2"> -->
+<!ATTLIST user id CDATA #REQUIRED>
+<!ATTLIST user id CDATA #IMPLIED>
+<!ATTLIST user id CDATA #FIXED "123">
+<!ATTLIST user id CDATA #FIXED "223">
+
+]>
+<person>
+<user>
+<name>Wajahat</name>
+<email>panotiwajhatabbas@gmail.com</email>
+<number>03308425176</number>
+
+</user>
+<user>
+<name>Hadi</name>
+<email>Nallahadi12@gmail.com</email>
+<contact>033445959176</contact>
+</user>
+</person>

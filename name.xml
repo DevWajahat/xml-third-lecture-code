@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE person [
+<!ENTITY name "asad">]>
+
+ <person>
+<sec-a>
+<id>01</id>
+<name>ali</name>
+</sec-a>
+<sec-a>
+<name>hyder</name>
+</sec-a>
+<sec-b>
+<id>02</id>
+<name>ali</name>
+
+</sec-b>
+<sec-c></sec-c>
+<sec-d>
+<fname>&name;</fname>
+</sec-d>
+</person>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<person>
+<user id="1">
+<name>panoti Wajahat</name>
+<age>17</age>
+<number>+923308425176</number>
+</user>
+
+<user id="2">
+<name>Nalla Hadi</name>
+<age>60+</age>
+<number> 5468968068</number>
+</user>
+</person>
